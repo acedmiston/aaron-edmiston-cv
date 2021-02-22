@@ -26,13 +26,14 @@ h4 {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
-  background-color: rgb(0, 0, 0);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 100;
   min-width: 400px;
+  background: linear-gradient(rgba(8, 8, 8, 0.788), rgba(8, 8, 8, 0.775)),
+    url('wallpaper.jpg');
 }
 
 .brand-title {
@@ -41,7 +42,7 @@ h4 {
 }
 
 .navbar a:hover {
-  background: #ddd;
+  background: rgba(255, 255, 255, 0.7);
   color: black;
 }
 
@@ -57,7 +58,7 @@ h4 {
 
 .navbar-links li a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color:rgba(255, 255, 255, 0.7);
   padding: 1rem;
   display: block;
 }
@@ -80,7 +81,7 @@ a:hover {
 .toggle-button .bar {
   height: 3px;
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
 }
 
@@ -698,7 +699,8 @@ li {
 }
 
 .experience {
-  background: rgb(8, 7, 7, 1);
+  background: linear-gradient(rgba(8, 8, 8, 0.788), rgba(8, 8, 8, 0.775)),
+    url('wallpaper.jpg');
   text-align: center;
   color: rgba(255, 255, 255, 0.7);
 }
