@@ -8,7 +8,6 @@ body {
   background-color: #000000d3;
   color: rgba(245, 245, 245, 0.863);
   font-family: 'Source Code Pro', monospace;
-  /* display: block; */
 }
 
 .container {
@@ -26,7 +25,6 @@ h4 {
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   overflow: hidden;
   background-color: rgb(0, 0, 0);
   position: fixed;
@@ -64,29 +62,9 @@ h4 {
   display: block;
 }
 
-/* .nav-list {
-  display: flex;
-  list-style: none;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  list-style: none;
-} */
-
 a:hover {
   font-size: 105%;
 }
-
-/* .navbar a {
-  color: #f2f2f2;
-  text-align: center;
-   padding: 2px 20px;
-  text-decoration: none;
-  margin-bottom: 20px;
-  font-size: 14px;
-  width: 100%;
-  letter-spacing: 2px;
-} */
 
 .toggle-button {
   position: absolute;
@@ -137,6 +115,7 @@ header {
   border-radius: 8px;
 }
 
+/* Projects TBD */
 .projects {
   background: linear-gradient(rgba(8, 8, 8, 0.788), rgba(8, 8, 8, 0.775)),
     url('wallpaper.jpg');
@@ -154,7 +133,7 @@ header {
   margin: 0 auto;
 }
 
-.projects p{
+.projects p {
   font-size: 35px;
   font-weight: 200;
   text-align: center;
@@ -606,64 +585,6 @@ li {
   content: '65%';
 }
 
-/* contact form */
-
-.contact-container {
-  margin: 60px auto;
-}
-
-.contact-section {
-  background: linear-gradient(rgba(8, 8, 8, 0.788), rgba(8, 8, 8, 0.775)),
-    url('wallpaper.jpg');
-  padding: 1px;
-  border-radius: 10px;
-}
-
-.icons {
-  display: flex;
-  justify-content: space-around;
-}
-
-.navbar .nav-icon {
-  display: none;
-}
-
-.experience {
-  background: rgb(8, 7, 7, 1);
-  text-align: center;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.cv-button {
-  border: 0;
-  background: #34495e;
-  color: rgba(255, 255, 255, 0.7);
-  padding: 12px 50px;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-.cv-button:hover {
-  background: rgba(0, 255, 0, 0.75);
-}
-
-.contact-section a {
-  text-decoration: none;
-  display: block;
-  color: rgba(255, 255, 255, 0.7);
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.contact-me {
-  padding-top: 20px;
-}
-
-footer {
-  text-align: center;
-}
-
 /* timeline */
 
 .timeline {
@@ -758,6 +679,60 @@ footer {
   list-style: none;
 }
 
+/* contact */
+
+.contact-container {
+  margin: 60px auto;
+}
+
+.contact-section {
+  background: linear-gradient(rgba(8, 8, 8, 0.788), rgba(8, 8, 8, 0.775)),
+    url('wallpaper.jpg');
+  padding: 1px;
+  border-radius: 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.experience {
+  background: rgb(8, 7, 7, 1);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.cv-button {
+  border: 0;
+  background: #34495e;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.cv-button:hover {
+  background: rgba(0, 255, 0, 0.75);
+}
+
+.contact-section a {
+  text-decoration: none;
+  display: block;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-me {
+  padding-top: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
 @media (max-width: 800px) {
   .responsive {
     display: flex;
@@ -765,15 +740,14 @@ footer {
   }
 }
 
-@media (min-width: 801px) and (max-width: 920px) {
+@media (min-width: 801px) and (max-width: 925px) {
   .intro-image {
     width: 75%;
   }
 }
 
-
-@media (max-width: 800px){
-  .toggle-button{
+@media (max-width: 961px) {
+  .toggle-button {
     display: flex;
   }
 
@@ -797,7 +771,7 @@ footer {
   }
 
   .navbar-links li a {
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
   }
 
   .navbar-links.active {
