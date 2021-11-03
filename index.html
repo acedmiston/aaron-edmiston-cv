@@ -8,14 +8,14 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script
       src="https://kit.fontawesome.com/1ab1250379.js"
-      crossorigin="anonymous">
-    </script>
-    <title>Aaron's CV</title>
+      crossorigin="anonymous"
+    ></script>
+    <title>Aaron Edmiston's CV</title>
   </head>
   <body>
-     <nav class="navbar" id="myNav">
-      <div class="brand-title logo">
-        <img src="./ACE.svg" alt="Aaron Logo" />
+    <nav class="navbar" id="myNav">
+      <div class="brand-logo">
+        <img src="../photos/ACE.svg" alt="Aaron Logo" />
       </div>
       <a href="#" class="toggle-button">
         <span class="bar"></span>
@@ -58,13 +58,13 @@
             <div class="blinker"></div>
           </div>
           <div class="typing title">
-            ...a full stack web developer in training.
+            ...a full stack web developer.
             <div class="blinker"></div>
           </div>
           <div class="typing email">
             Email:
-            <a href="mailto:aaroncedmiston@gmail.com"
-              >aaroncedmiston@gmail.com
+            <a href="mailto:aaroncedmistondev@gmail.com"
+              >aaroncedmistondev@gmail.com
             </a>
             <div class="blinker"></div>
           </div>
@@ -81,7 +81,7 @@
         <div class="column-pic">
           <img
             class="intro-image"
-            src="./aaronjapan.jpeg"
+            src="../photos/aaronjapan.jpeg"
             alt="Aaron in Japan"
           />
         </div>
@@ -94,21 +94,22 @@
               <div class="blinker"></div>
             </div>
             <p>
-              I am an aspiring web developer located in London, UK. I am
-              currently enrolled in a part-time software engineering bootcamp
-              focusing on full stack web development. I am actively looking to
-              expand my knowledge, find a junior developer role and join the
-              ever evolving tech industry.
+              I am a full stack software developer splitting time between New
+              York, NY && London, UK. I have spent the past two years self
+              teaching and completing a full stack software engineering course
+              called {The Jump}. I am actively looking to expand my knowledge,
+              find a developer role and join the ever evolving tech industry.
             </p>
             <div class="facts-section">
               <div class="typing facts">
-                Some facts about Aaron:
+                Some fun facts:
                 <div class="blinker"></div>
               </div>
               <ul>
                 <li>I was born in <strong>Southern</strong> California</li>
                 <li>
-                  I started learning basic <code>coding</code> in high school
+                  I started learning basic <code>coding</code> in high school on
+                  Xanga
                 </li>
                 <li>
                   I enjoy solving new problems going down rabbit
@@ -117,10 +118,6 @@
                 <li>
                   I just permanently moved to London with my wife, <i>India</i>,
                   in November, 2020
-                </li>
-                <li>
-                  I'm happy to currently be in {The <sup>Jump</sup>} software
-                  engineering bootcamp!
                 </li>
               </ul>
             </div>
@@ -152,15 +149,15 @@
             </div>
             <div class="bar">
               <div class="info">
-                <span>SPANISH</span>
+                <span>NODE.JS</span>
               </div>
-              <div class="progress-line spanish"><span></span></div>
+              <div class="progress-line node"><span></span></div>
             </div>
             <div class="bar">
               <div class="info">
-                <span>PORTUGUESE</span>
+                <span>REACT</span>
               </div>
-              <div class="progress-line portuguese"><span></span></div>
+              <div class="progress-line react"><span></span></div>
             </div>
             <span>OTHER SKILLS:</span>
             <div class="icons">
@@ -171,9 +168,9 @@
               <i class="fab fa-node" style="font-size: 48px"></i>
               <i class="fab fa-html5" style="font-size: 48px"></i>
               <i class="fab fa-docker" style="font-size: 48px"></i>
-              <img src="./Express.png" class="express" />
+              <img src="../photos/Express.png" class="express" />
               <i class="fab fa-git-alt" style="font-size: 48px"></i>
-              <img src="./graphql.png" class="graphql" />
+              <img src="../photos/graphql.png" class="graphql" />
             </div>
           </div>
         </section>
@@ -183,9 +180,22 @@
               Projects:
               <div class="blinker"></div>
             </div>
-            <div>
+            <div class="projects-holder">
               <div class="project-content">
-                <p>Coming Soon!</p>
+                <p class="project-name">Nomader.World</p>
+                <a href="nomader.world"><img src="./photos/nomader.png" alt="travel site" class="project-box"></a>
+              </div>
+              <div class="project-content">
+                <p class="project-name">CubClub.Club</p>
+                <a href="cubclub.club"><img src="./photos/cubclub.png" alt="hackathon" class="project-box"></a>
+              </div>
+              <div class="project-content">
+                <p class="project-name">Stripe Hommage</p>
+                <a href="https://stripe-homepage.netlify.app/"><img src="./photos/stripe.png" alt="stripe hommage" class="project-box"></a>
+              </div>
+              <div class="project-content">
+                <p class="project-name">My Address Book</p>
+                <a href="https://acedmiston.github.io/Address-Book-Project/"><img src="./photos/address.png" alt="address book" class="project-box"></a>
               </div>
             </div>
           </div>
@@ -199,7 +209,7 @@
             <div class="contain left">
               <div class="content">
                 <h4>{The Jump} Digital School, London</h4>
-                <p class="date">January 2021-present</p>
+                <p class="date">January 2021-August 2021</p>
                 <p>Full Stack Software Engineering Program</p>
                 <ul>
                   <li>HTML5: Including accessibility best practices</li>
@@ -209,42 +219,55 @@
                     like Flexbox & CSS Grid <br />
                     Frameworks - Bootstrap and Materialize; Preprocessors - SCSS
                   </li>
-                  <br />
                   <li>
-                    JavaScript: <br />
-                    Vanilla JS (data types, data structures, control flow,
-                    functions, classes, DOM manipulation)
-                    <br />Third-party libraries and plugins React (inc
-                    hooks/context) <br />Node & Express
+                    <p>JavaScript:</p>
+                    <p>
+                      Vanilla JS (data types, data structures, control flow,
+                      functions, classes, DOM manipulation)
+                    </p>
+                    <p>
+                      Third-party libraries and plugins React (inc
+                      hooks/context)
+                    </p>
+                    <p>Node & Express</p>
                   </li>
-                  <br />
+
                   <li>
-                    TDD & testing tools: <br />
-                    TypeScript, Cypress, Jest
+                    <p>TDD & testing tools:</p>
+                    <p>TypeScript, Cypress, Jest</p>
                   </li>
-                  <br />
+
                   <li>
                     AJAX & API’s: <br />
                     creating and consuming REST (and GraphQL)
                   </li>
-                  <br />
+
                   <li>
-                    Databases: <br />
-                    SQL - Postgres NoSQL - MongoDB with Mongoose.js; Redis
+                    <p>Databases:</p>
+                    <p>
+                      SQL - Postgres NoSQL - MongoDB with Mongoose.js; Redis
+                    </p>
                   </li>
-                  <br />
+
                   <li>
-                    DevOps: <br />
-                    Docker & Kubernetes, heroku (inc. pipelines); serverless
-                    (inc. netlify)
+                    <p>DevOps:</p>
+                    <p>
+                      Docker & Kubernetes, heroku (inc. pipelines); serverless
+                      (inc. netlify)
+                    </p>
                   </li>
-                  <br />
                   <li>
-                    Familiarity with these frameworks: <br />
-                    OAuth; Redux; TypeScript; GraphQL; Animation (Greensock &
-                    Three.js); Graphing (d3.js) & Realtime (websockets and
-                    socket.io);<br />
+                    <p>Familiarity with these frameworks:</p>
+                    <p>
+                      OAuth; Redux; TypeScript; GraphQL; Animation (Greensock &
+                      Three.js); Graphing (d3.js) & Realtime (websockets and
+                      socket.io);
+                    </p>
                   </li>
+                  <p>
+                    Website:
+                    <a href="thejump.tech" target="_blank">thejump.tech</a>
+                  </p>
                 </ul>
               </div>
             </div>
@@ -255,21 +278,26 @@
                 <p>Online English Teacher</p>
                 <ul>
                   <li>
-                    Specialty in conversation, pronunciation and grammar,
-                    building confidence in young students to speak, write and
-                    read in English confidently
+                    <p>
+                      Specialty in conversation, pronunciation and grammar,
+                      building confidence in young students to speak, write and
+                      read in English confidently
+                    </p>
                   </li>
-                  <br />
+
                   <li>
-                    Maintaining a perfect teacher feedback score while balancing
-                    up to 100 students per week
+                    <p>
+                      Maintaining a perfect teacher feedback score while
+                      balancing up to 100 students per week
+                    </p>
                   </li>
-                  <br />
+
                   <li>
-                    Knowledge of how to teach all age ranges, skill levels
-                    (beginner – advanced) and ethnicities
+                    <p>
+                      Knowledge of how to teach all age ranges, skill levels
+                      (beginner – advanced) and ethnicities
+                    </p>
                   </li>
-                  <br />
                 </ul>
               </div>
             </div>
@@ -280,29 +308,40 @@
                 <p>Real Estate Agent</p>
                 <ul>
                   <li>
-                    Prepared real estate contracts, assembled client financial
-                    information and finalized conditions of sale
+                    <p>
+                      Prepared real estate contracts, assembled client financial
+                      information and finalized conditions of sale
+                    </p>
                   </li>
-                  <br />
+
                   <li>
-                    Actively found new clients, managed a large client database
-                    and maintained detailed accounts of clients’ needs
+                    <p>
+                      Actively found new clients, managed a large client
+                      database and maintained detailed accounts of clients’
+                      needs
+                    </p>
                   </li>
-                  <br />
+
                   <li>
-                    Organized apartment showings, open houses and conducted
-                    roommate searches to help find perfect matches
+                    <p>
+                      Organized apartment showings, open houses and conducted
+                      roommate searches to help find perfect matches
+                    </p>
                   </li>
-                  <br />
+
                   <li>
-                    Exercised excellent communication skills by liaising between
-                    management, landlords and clients throughout the rental
-                    agreement process
+                    <p>
+                      Exercised excellent communication skills by liaising
+                      between management, landlords and clients throughout the
+                      rental agreement process
+                    </p>
                   </li>
-                  <br />
+
                   <li>
-                    Created listing advertisements on StreetEasy, Zumper, Naked
-                    Apartments, Craigslist and Facebook Marketplace
+                    <p>
+                      Created listing advertisements on StreetEasy, Zumper,
+                      Naked Apartments, Craigslist and Facebook Marketplace
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -312,7 +351,9 @@
                 <p>RealEstateU, New York, NY</p>
                 <p class="date">June 2018</p>
                 <ul class="single-bullet">
-                  <li>NYS 75-Hour Real Estate Salesperson Licensing Course</li>
+                  <li>
+                    <p>NYS 75-Hour Real Estate Salesperson Licensing Course</p>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -321,7 +362,7 @@
                 <p>Oxford TEFL Barcelona, Spain</p>
                 <p class="date">June 2017</p>
                 <ul class="single-bullet">
-                  <li>Trinity Certificate in TESOL (TEFL course)</li>
+                  <li><p>Trinity Certificate in TESOL (TEFL course)</p></li>
                 </ul>
               </div>
             </div>
@@ -338,10 +379,10 @@
           <a href="https://www.facebook.com/acedmiston87/" target="_blank"
             >Facebook</a
           >
-          <a href="mailto:aaroncedmiston@gmail.com" target="_blank"
+          <a href="mailto:aaroncedmistondev@gmail.com" target="_blank"
             >Send an Email</a
           >
-          <a href="tel:07526207460">Call my Cell</a>
+          <a href="tel:07526207460">Call Me</a>
         </div>
         <div class="aaron-cv">
           <a href="./AaronCV.pdf" download="AaronEdmistonCV">
@@ -360,7 +401,7 @@
       const navbarLinks = document.getElementsByClassName('navbar-links')[0];
 
       toggleButton.addEventListener('click', () => {
-      navbarLinks.classList.toggle('active');
+        navbarLinks.classList.toggle('active');
       });
     </script>
   </body>
