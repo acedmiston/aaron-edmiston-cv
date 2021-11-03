@@ -87,7 +87,7 @@ a:hover {
 
 header {
   background: linear-gradient(rgba(8, 8, 8, 0.788), rgba(8, 8, 8, 0.775)),
-    url('wallpaper.jpg');
+    url('../photos/wallpaper.jpg');
   padding: 16px;
   margin-top: 55px;
   margin-bottom: 30px;
@@ -126,16 +126,16 @@ header {
 
 .intro {
   background: linear-gradient(rgba(8, 8, 8, 0.788), rgba(8, 8, 8, 0.775)),
-    url('wallpaper.jpg');
+    url('../photos/wallpaper.jpg');
   margin: auto;
   padding: 20px;
   border-radius: 8px;
 }
 
-/* Projects TBD */
+/* Projects */
 .projects {
   background: linear-gradient(rgba(8, 8, 8, 0.788), rgba(8, 8, 8, 0.775)),
-    url('wallpaper.jpg');
+    url('../photos/wallpaper.jpg');
   border-radius: 8px;
   padding-bottom: 30px;
 }
@@ -474,7 +474,7 @@ li {
   padding: 20px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   background: linear-gradient(rgba(8, 8, 8, 0.788), rgba(8, 8, 8, 0.775)),
-    url('wallpaper.jpg');
+    url('../photos/wallpaper.jpg');
 }
 
 .skills-bar .bar {
@@ -614,7 +614,7 @@ li {
   margin-top: 40px;
   margin-bottom: 40px;
   background: linear-gradient(rgba(8, 8, 8, 0.788), rgba(8, 8, 8, 0.775)),
-    url('wallpaper.jpg');
+    url('../photos/wallpaper.jpg');
   position: relative;
   border-radius: 6px;
   padding: 20px;
@@ -710,7 +710,7 @@ li {
 
 .contact-section {
   background: linear-gradient(rgba(8, 8, 8, 0.788), rgba(8, 8, 8, 0.775)),
-    url('wallpaper.jpg');
+    url('../photos/wallpaper.jpg');
   padding: 1px;
   border-radius: 10px;
 }
@@ -722,7 +722,7 @@ li {
 
 .experience {
   background: linear-gradient(rgba(8, 8, 8, 0.788), rgba(8, 8, 8, 0.775)),
-    url('wallpaper.jpg');
+    url('../photos/wallpaper.jpg');
   text-align: center;
   color: rgba(255, 255, 255, 0.7);
 }
